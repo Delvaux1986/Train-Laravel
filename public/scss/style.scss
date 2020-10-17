@@ -1,0 +1,187 @@
+//IMPORT 
+@import "query.scss";
+
+
+
+html{
+    margin:0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: -webkit-linear-gradient(110deg, rgb(63, 70, 76), rgb(103, 112, 120));
+    background: linear-gradient(110deg, rgb(63, 70, 76), rgb(103, 112, 120));
+    height:100%;
+    }
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+h2{
+    color:RGB(0,206,209);
+}
+i{
+    margin:0 auto;
+}
+label{
+    color:RGB(0,206,209);
+}
+.firstcadre{
+    background-color: white; 
+    margin:3vh auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    p{
+        max-width: 60%;
+    }
+}
+.ReseauSociaux{
+    background-color: white;
+    margin:2vh auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.ReseauSociaux ul li{
+    list-style: none;
+    float:left;
+    display:flex;
+    margin:0 auto;
+    justify-content: space-between;
+    padding-right: 3em;
+}
+.firstcadre img{
+    width:215px;
+    height:195px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    display:flex;
+    margin:0 auto;
+}
+.firstcadre p, .presentationJquery p , .ex_div_msg p{
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+/*Class Minichat page*/
+.minichat {
+    margin: 1vh auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+        input{
+            width:20%;
+            margin:0 auto;
+        }
+}
+.div_chat{
+    background-color:#C0C0C0;
+    display:flex;
+    flex-direction: column;
+    margin:4vh auto;
+    border-radius: 10px;
+    border:3px solid Grey;
+        p{
+            padding-top:auto;
+}
+}
+
+#horloge{
+    color:white;
+}
+/* input contact*/
+.inputcontact{
+    background-color: white;
+    margin:4vh auto;
+    border-radius: 10px;
+}
+/* Folio Page */
+.infoText{
+    background-color: white;
+    margin: 4vh auto;
+    text-align: center;
+    border-radius:10px;
+    h2{
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+.hangmanSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkHangman{
+    button{
+    display:block;
+    width:2rem;
+    height:2rem;
+    background-color:#C0C0C0 ;
+    border: 1px solid black;
+    margin-bottom: .5rem;
+}}
+.secondBox{
+    background-color: white;
+    margin: 4vh auto;
+    text-align: center;
+    border-radius:10px;
+}
+.pouletteSection img{
+    width:254px;
+    height:226px;
+}
+/* About me Page*/
+.progress , .certification , .ex_div_msg{
+    border-radius: 10px;
+}
+.progressSection{
+    background-color: white;
+}
+/* Page Jquery show*/
+.presentationJquery{
+    display:flex;
+    flex-direction: column;
+    margin:4vh auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.buttonDiv{
+    width:60%;
+    height:15vh;
+    background: white;
+    margin:auto auto;
+    border-radius:10px;
+        button{
+                margin-top:5vh;
+                }   
+}
+/*Page Javascript show*/
+.presentation, .canvas{
+    background: white;
+    margin:4vh auto;
+    border-radius:10px;
+    text-align: center;
+}
+.exempleBoucle,.text_delay,.event_background{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin:4vh auto;
+}
+.mouse_over{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin:4vh auto;
+}

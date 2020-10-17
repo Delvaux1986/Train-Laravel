@@ -1,1 +1,4 @@
-# Train-Laravel
+### Laravel Training 
+
+![Laravel](/resources/assets/img/laravel.gif)
+
