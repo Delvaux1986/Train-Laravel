@@ -41,16 +41,16 @@ return [
 
         'mysql' => [
             'read' => [
-                'host'=> '192.168.1.1',
+                'host'=> '127.0.0.1',
             ],
             'write' => [
-                'host' => '192.168.1.2',
+                'host' => '127.0.0.1',
             ],
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', ''),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', ''), // ONLINE delvjsph_contact
-            'username' => env('DB_USERNAME', 'root'), // ONLINE delvjsph_root
+            'username' => env('DB_USERNAME', ''), // ONLINE delvjsph_root
             'password' => env('DB_PASSWORD', ''), // ONLINE =MbpihD7=Rd^NmYMFy
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',

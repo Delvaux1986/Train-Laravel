@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-// use App/Messages;
+use Illuminate\Support\Facades\DB;
 
-class Message extends Controller
+class Messages extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,7 @@ class Message extends Controller
      */
     public function index()
     {
-        $messages = Messages::all()->toArray();
-        return view('minichat', compatct('messages'));
+      
     }
 
     /**
