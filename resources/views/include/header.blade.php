@@ -19,16 +19,9 @@
         <ul class='nav table justify-content-center'>
             <li class=" btn btn-info "><a class="text-light" href="index.php">Accueil</a></li>
             <li class=" btn btn-info "><a class="text-light" href="/minichat">Minichat</a></li>
-            <li class=" btn btn-info "><a class="text-light" href="/minichat">Contact</a></li>
+            <li class=" btn btn-info "><a class="text-light" href="/contact">Contact</a></li>
             <li class=" btn btn-info "><a class="text-light" href="/folio">Portfolio</a></li>
-                <!-- <li class="nav-item dropdown btn btn-info">
-                <a class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink btn-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
-                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item " href="messcript.php">Script en Javascript</a>
-                        <a class="dropdown-item " href="mesjquery.php">Script en Jquery</a>
-                        <a class="dropdown-item" href="aboutme.php">A propos de moi</a>
-                    </div>
-                </li>         -->
+            <li class=" btn btn-info "><a class="text-light" href="/about">About me</a></li>    
         </ul>
     
 </nav>

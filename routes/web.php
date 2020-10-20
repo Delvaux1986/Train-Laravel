@@ -1,5 +1,8 @@
 <?php
 
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,10 +23,16 @@ Route::get('/minichat', function () {
     return view('minichat' , compact('messages'));
 });
 
+Route::resource('message', MessageController::class);
+
 Route::get('/contact', function () {
     return view('contact');
 });
 
 Route::get('/folio', function () {
     return view('folio');
+});
+
+Route::get('/about', function () {
+    return view('about');
 });

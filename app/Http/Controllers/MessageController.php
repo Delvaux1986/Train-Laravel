@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class Messages extends Controller
+use Illuminate\Http\Request;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use DB;
+
+class MessageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +16,7 @@ class Messages extends Controller
      */
     public function index()
     {
-      
+        return view('minichat');
     }
 
     /**
@@ -35,16 +37,28 @@ class Messages extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request , [
+            'pseudo' => 'required',
+            'msgchat' => 'required',
+        ]);
+    
+        DB::table("minichat")->insert([
+            "pseudo" => $_POST["pseudo"],
+            "msgchat" => $_POST["msgchat"]
+        ]);
+        $messages = $messages = DB::table('minichat')->get();
+     
+        return view('/minichat', compact("messages"))
+                        ->with('success','Message Add to the DB.');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Message $message)
     {
         //
     }
@@ -52,10 +66,10 @@ class Messages extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Message $message)
     {
         //
     }
@@ -64,10 +78,10 @@ class Messages extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Message $message)
     {
         //
     }
@@ -75,10 +89,10 @@ class Messages extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Message $message)
     {
         //
     }
