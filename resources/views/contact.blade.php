@@ -1,8 +1,9 @@
 @include('include/header')
 <div align="center" class="inputcontact col-md-8 offset-md-2">
-            <h2 class="mb-3"><span><ins>Contact Me</ins></span></h2>
-
-            <form  method="post" action="">   
+            <h2 class="mb-3"><span><ins>Contact Me</ins></span></h2> 
+            
+            <form  method="post" action="/mail">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}"> 
                 <input name="name" id="nom" required="require" placeholder="Enter your lastname"/><br/>
                     <input name="prenom" id="prenom" required="require" placeholder="Enter your firstname"/><br/>
                         <input name="mail" id="email" required="require" placeholder="Enter your E-mail"/><br/>
