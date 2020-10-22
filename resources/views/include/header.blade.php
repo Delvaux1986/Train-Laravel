@@ -20,7 +20,7 @@
         <ul class='nav table justify-content-center'>
             <li class=" btn btn-info "><a class="text-light" href="index.php">Accueil</a></li>
             <li class=" btn btn-info "><a class="text-light" href="/minichat">Minichat</a></li>
-            <li class=" btn btn-info "><a class="text-light" href="/contact">Contact</a></li>
+            <li class=" btn btn-info "><a class="text-light" href="/sendmail">Contact</a></li>
             <li class=" btn btn-info "><a class="text-light" href="/folio">Portfolio</a></li>
             <li class=" btn btn-info "><a class="text-light" href="/about">About me</a></li>    
         </ul>

@@ -6,21 +6,21 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use App\Http\Controllers\Controller;
 
-
-class SendMail extends Mailable 
+class SendMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $details;
+
+    public $data;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($details)
+    public function __construct($data)
     {
-        $this->details = $details;
+        $this->data = $data;
     }
 
     /**
@@ -30,8 +30,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Mail from Delvaux Robby Web site')
-                    ->view('emails.mail');
-;
+        return $this->from('Delvaux.Robby@gmail.com')->subject('Un utilisateur voudrait te contacter')->view('emails/mail')
+                ->with('data' , $this->data);
     }
 }

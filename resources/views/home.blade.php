@@ -16,7 +16,7 @@
                         <a href="https://www.linkedin.com/in/robby-delvaux-1ab1a51ab/" target="_blank" class="text-dark">
                         <i class="fab fa-linkedin fa-3x text-dark"></i></br/>Linkedin</a>
                     </li>
-                        <a href="https://github.com/Delvaux1986?tab=repositories" target="_blank" class="text-dark">
+                        <a href="https://github.com/Delvaux1986" target="_blank" class="text-dark">
                     <li class="mt-5 mb-5  "><i class="fab fa-github fa-3x text-dark"></i><br/>Github</a>
                     </li>
                 </ul>
