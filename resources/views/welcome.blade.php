@@ -4,8 +4,8 @@
     
     <body class="bg-dark">
     <article class="firstcadre container-md col-md-8 offset-md-2 bg-light rounded">
-                <h2 class="mt-5">Delvaux Robby</h2>
-                    <img src="./img/moi.jpg" alt="Photo de moi" class="img-fluid"><br><br>
+                <h2 class="mt-5 text-info text-center">Delvaux Robby</h2>
+                    <img src="./img/moi.jpg" alt="Photo de moi" class="img-fluid text-center rounded"><br><br>
                         <p class="mb-5"> Bonjour , <br> 
                             Je m'apelle Robby Delvaux . <br>
                             Je suis actuellement en formation a <a href="https://becode.org/">Becode.org</a> . Ou j'ai déja vu jusqu'a présent 
