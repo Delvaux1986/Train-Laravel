@@ -3,7 +3,7 @@
     
     
     <body class="bg-dark">
-    <article class="d-flex justify-content-center container-md col-md-8 offset-md-2 bg-light rounded">
+    <article class="d-flex justify-content-center flex-column container-md col-md-8 offset-md-2 bg-light rounded">
                 <h2 class="mt-5 text-info text-center">Delvaux Robby</h2>
                     <img src="./img/moi.jpg" alt="Photo de moi" class="img-fluid text-center rounded"><br><br>
                         <p class="mb-5"> Bonjour , <br> 
