@@ -1,6 +1,6 @@
 @include("include/header")
 <div class="col-md-8 offset-md-2 bg-light rounded">
-    <section class="text-center flex-column mt-5 mb-5 col-md-8 offset-md-2 rounded bl-light">
+    <section class="text-center flex-column mt-5 mb-5 col-md-8 offset-md-2 rounded bg-light">
             <h2><span><ins>Mes heures d'apprentissages</ins></span></h2>
             <table border="2" class="mb-4 text-center table table-active mt-4 pb-5">
                 <tr>

@@ -1,6 +1,5 @@
 
-<!doctype html>
-    <html lang="{{ app()->getLocale() }}">
+
     @include('include/header')
 
     <body class="bg-dark">
@@ -52,4 +51,3 @@
     </body>
     @include('include/footer')
 
-</html>
