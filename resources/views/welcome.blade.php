@@ -3,7 +3,7 @@
     
     
     <body class="bg-dark">
-    <article class="firstcadre container-md col-md-8 offset-md-2">
+    <article class="firstcadre container-md col-md-8 offset-md-2 bg-light">
                 <h2 class="mt-5">Delvaux Robby</h2>
                     <img src="./img/moi.jpg" alt="Photo de moi" class="img-fluid"><br><br>
                         <p class="mb-5"> Bonjour , <br> 
