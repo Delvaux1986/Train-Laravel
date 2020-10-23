@@ -15,7 +15,7 @@
                             J'ai commencer se site il n'est donc pas parfait mais je compte le tenir a jours et y ajouter les projets sur les quels 
                             je travail . Vous trouverez ici en dessous les liens vers Github , linkedin </p>
         </article>
-            <section class="container-md mb-5 mt-5 col-md-8 offset-md-2 bg-light rounded d-flex justify-content-center">
+            <section class="container-md mb-5 mt-5 col-md-8 offset-md-2 bg-light rounded d-flex justify-content-center flex-row">
                 <ul>
                     <li class="mt-5 mb-5 i-black">
                         <a href="https://www.linkedin.com/in/robby-delvaux-1ab1a51ab/" target="_blank" class="text-dark">
