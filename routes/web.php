@@ -17,11 +17,7 @@ Route::get('/', function () {
     return view('welcome');    
 });
 
-Route::get('/minichat', function () {
-    $messages = DB::table('minichat')->get();
-    return view('minichat' , compact('messages'));
-});
-
+Route::get('/minichat', 'MessageController@index');
 Route::resource('message', MessageController::class);
 
 

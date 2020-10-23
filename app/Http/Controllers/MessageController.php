@@ -16,7 +16,8 @@ class MessageController extends Controller
      */
     public function index()
     {
-        return view('minichat');
+        $messages = DB::table('minichat')->get();
+        return view('minichat' , compact('messages'));
     }
 
     /**
