@@ -1,7 +1,7 @@
-@include('include/header')
+
 <!doctype html>
     <html lang="{{ app()->getLocale() }}">
-    
+    @include('include/header')
 
     <body class="bg-dark">
         <section class="">  
