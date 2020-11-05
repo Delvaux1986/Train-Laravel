@@ -40,24 +40,18 @@ return [
         ],
 
         'mysql' => [
-            'read' => [
-                'host'=> '127.0.0.1',
-            ],
-            'write' => [
-                'host' => '127.0.0.1',
-            ],
+            'debug' => env('APP_DEBUG', true),
             'driver' => 'mysql',
-            'host' => env('DB_HOST', ''),
+            'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', ''), // ONLINE delvjsph_contact
-            'username' => env('DB_USERNAME', ''), // ONLINE delvjsph_root
-            'password' => env('DB_PASSWORD', ''), // ONLINE =MbpihD7=Rd^NmYMFy
+            'database' => env('DB_DATABASE', 'delvjsph_BLOG'), // ONLINE delvjsph_contact
+            'username' => env('DB_USERNAME', 'delvjsph_root'), // ONLINE delvjsph_root
+            'password' => env('DB_PASSWORD', 'dualvex0804'), // ONLINE =MbpihD7=Rd^NmYMFy
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
-            'strict' => true,
-            'engine' => null,
+            'strict' => false,
             'modes'  => [
                 'ONLY_FULL_GROUP_BY',
                 'STRICT_TRANS_TABLES',

@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Validation\ValidatesRequests;
-use DB;
+use Illuminate\Support\Facades\DB;
+
 
 class MessageController extends Controller
 {
@@ -16,8 +17,9 @@ class MessageController extends Controller
      */
     public function index()
     {
-        $messages = DB::table('minichat')->get();
+        $messages = DB::connection()->select('select * from `minichat`');
         return view('minichat' , compact('messages'));
+        // dd(Message::all());
     }
 
     /**
@@ -27,7 +29,7 @@ class MessageController extends Controller
      */
     public function create()
     {
-        //
+        DB::insert('insert into minichat (pseudo, msgchat) values (?, ?)');
     }
 
     /**
