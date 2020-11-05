@@ -45,8 +45,8 @@ return [
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'delvjsph_BLOG'), // ONLINE delvjsph_contact
-            'username' => env('DB_USERNAME', 'delvjsph_root'), // ONLINE delvjsph_root
-            'password' => env('DB_PASSWORD', 'dualvex0804'), // ONLINE =MbpihD7=Rd^NmYMFy
+            'username' => env('DB_USERNAME', 'xxxxxxxxx'), // ONLINE delvjsph_root
+            'password' => env('DB_PASSWORD', 'xxxxxxxxx'), // ONLINE =MbpihD7=Rd^NmYMFy
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
